@@ -2,7 +2,7 @@
   "name": "blue-modulo2-projeto1",
   "version": "1.0.0",
   "description": "Projeto 1 Do Modulo2 Do curso de back-end da Blue Edtech",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,11 @@
   "bugs": {
     "url": "https://github.com/hefi1413/blue-modulo2-projeto1/issues"
   },
-  "homepage": "https://github.com/hefi1413/blue-modulo2-projeto1#readme",
+  "homepage": "https://hefi1413.github.io/blue-modulo2-projeto1/",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
