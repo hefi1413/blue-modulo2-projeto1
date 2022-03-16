@@ -1,6 +1,5 @@
 /*
   definição classes
-*/
 .center {
   margin: 0 auto;
   display: block;
@@ -55,6 +54,30 @@
 .col-fit-content {
   width: fit-content;
 }
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column-data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+
 
 /*
   definição de componentes
@@ -111,8 +134,8 @@ img {
 }
 */
 
-@media (max-width: 800px) {
-  #photo {
+@media (max-width: 400px) {
+  img {
     display: none;
   }
 }

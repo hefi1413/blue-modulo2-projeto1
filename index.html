@@ -1,38 +1,123 @@
+
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8" >
-
-    <link rel="stylesheet"  href="./public/css/styles.css" > 
-</head>
-
+<html>
+  <head>
+      <meta charset="UTF-8" >
+  
+      <link rel="stylesheet"  href="./public/css/styles.css" > 
+  </head>
 <body>
-    <header>
-        <div class="">
-        </div>
-    </header>
-    <main>
-        <section>
-            <article>
-                <div class="container_main">
-                    
-                    <h2 id="name"></h2>
 
-                    <h3 id="situation"></h2>
+  <header>
+    <div style="width:100%;height:300px;background-color:#3cb0fd;display:flex;">   
+    
+      <div style="width:50%;display:flex;flex-direction:column;justify-content: flex-end;">
+        <h1>Jogo Do Humor Do Mercado De Trabalho</h1>
+      </div>
 
-                    <button class="btn" id="shift">Mudar Situação</button>
-                </div>
-            </article>
+      <div style="width:50%;display:flex;align-items:center;justify-content: end;">
+        <img src="./public/images/homem-com-maleta_1.jpg" style="width:320px ;height: 260px;" />
+      </div>
 
-            <div class="container">
-                <img id="main_img" src="" />
+    </div>
+  </header>
+
+  <!-- div container -->
+  <main>
+    <section>
+      <article>
+        <div style="width:100%;height:400px;display:flex;border:1px solid blue;">   
+
+          <div class="column-data">
+            <div>
+               <h2 id="name"> Nome: Fulano</h2>
             </div>
-        </section>
-    </main>
+    
+            <div>
+               <h2 id="situation"> Situação: desempregado</h2>
+            </div>
+    
+            <div>
+               <button class="btn" id="shift"> Mudar Situação</button>
+            </div>
+    
+          </div>
+    
+          <div class="column-image">
+            <div style="width: 450px; height: 300px;">
+               <img id="photo" src="" />
+            </div>
+          </div>
 
-    <footer>
-        <p> Blueedtech. Todos direitos reservados, 20022. </p>
-    </footer>
+        </div>
+      </article>
+    </section>
+  </main>
 
-    <script type="text/javascript"  src="./public/js/index.js"> </script> 
+  <!-- app scripts -->
+  <script type="text/javascript"  src="./public/js/index.js"> </script> 
 
 </body>
+</html>
+
+
+
+<!--
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.column-data {
+   width:50%;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:space-around;
+}
+
+.column-image {
+   width:50%; 
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   border:1px solid red;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Responsive Flexbox</h1>
+
+<div style="width:100%;height:300px;display:flex;border:1px solid blue;">   
+    
+   <div class="column-data">
+        <div>
+           <h2> item item item item item 1</h2>
+        </div>
+
+        <div>
+           <h2> item item item 2</h2>
+        </div>
+
+        <div>
+           <button> mudar situação</button>
+        </div>
+
+   </div>
+
+   <div class="column-image">
+        <div>
+           <span>column </span>
+        </div>
+   </div>
+</div>
+
+</body>
+</html>
+
+
+-->
