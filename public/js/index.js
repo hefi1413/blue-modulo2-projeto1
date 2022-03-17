@@ -9,7 +9,7 @@ var persona = {
 
 const image1 ="./public/images/homem_sem_dinheiro.jpg";
 const image2 ="./public/images/homem_buscando_emprego.jpg";
-const image3 ="./public/images/homem_com_dinheiro2.jpg";
+const image3 ="./public/images/homem_com_dinheiro.jpg";
 
 // 
 window.onload = function() {
