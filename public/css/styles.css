@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 
 
@@ -73,16 +72,9 @@ img {
   width: 100%;
 }
 
-/* Responsive layout - makes a one column-container 
-
-@media ( max-width: 400px) {
-  .nocell {
-    display:none;}
-}
-*/
-
-@media (max-width: 400px) {
+/* responsive layout - no cell phone  */
+@media (max-width: 500px) {
   img {
-    display: "none";
+    display: none;
   }
 }
