@@ -3,6 +3,13 @@
 */
 
 
+.container-flex {
+  width: 75%;
+  height: 400px;
+  display: flex;
+  margin: 0 auto;
+}
+
 .column-data {
   width: 50%;
   display: flex;
@@ -73,7 +80,7 @@ img {
 }
 
 /* Responsive layout  */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   img {
     display: none;
   }
