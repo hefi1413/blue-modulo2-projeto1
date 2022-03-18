@@ -1,5 +1,5 @@
 /*
- definição classes
+  Definição classes
 */
 
 
@@ -21,7 +21,7 @@
 
 
 /*
-  definição de componentes
+  Definição de componentes
 */
 .btn {
   background: #34ced9;
@@ -53,7 +53,7 @@
 
 
 /*
-  definição elementos html
+  Definição elementos html
 */
 
 * {
@@ -72,8 +72,8 @@ img {
   width: 100%;
 }
 
-/* responsive layout - no cell phone  */
-@media (max-width: 500px) {
+/* Responsive layout  */
+@media (max-width: 450px) {
   img {
     display: none;
   }
